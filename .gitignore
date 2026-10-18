@@ -1,0 +1,15 @@
+.DS_Store
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+.models/
+node_modules/
+dist/
+coverage/
+test-results/
+playwright-report/
+*.log
+research/assets/
+.ipynb_checkpoints/

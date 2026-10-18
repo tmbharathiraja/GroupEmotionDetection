@@ -1,0 +1,23 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "127.0.0.1:${BACKEND_PORT:-8001}:8000"
+    volumes:
+      - model-cache:/app/.models
+    restart: unless-stopped
+  frontend:
+    build:
+      context: .
+      dockerfile: react-frontend/Dockerfile
+    ports:
+      - "127.0.0.1:${FRONTEND_PORT:-3001}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  model-cache:

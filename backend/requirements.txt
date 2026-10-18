@@ -1,0 +1,14 @@
+# Python 3.12. Keep the research classifier version aligned with the original notebook.
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+python-multipart==0.0.22
+Pillow==11.2.1
+numpy==1.26.4
+ultralytics==8.3.144
+torch==2.6.0
+torchvision==0.21.0
+deepface==0.0.93
+tensorflow==2.18.1
+tf-keras==2.18.0
+opencv-python==4.11.0.86
+omegaconf==2.3.0

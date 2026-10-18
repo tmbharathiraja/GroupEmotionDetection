@@ -1,0 +1,17 @@
+deepface==0.0.93
+facenet-pytorch==2.5.3
+huggingface-hub==0.32.0
+matplotlib==3.10.3
+matplotlib-inline==0.1.7
+matplotlib-venn==1.1.2
+numpy==2.1.3
+onnxruntime==1.22.0
+opencv-contrib-python==4.11.0.86
+pandas==2.2.3
+pandas-datareader==0.10.0
+pandas-gbq==0.28.1
+pandas-stubs==2.2.2.240909
+seaborn==0.13.2
+tqdm==4.67.1
+ultralytics==8.3.144
+ultralytics-thop==2.0.14

@@ -1,0 +1,7 @@
+# API and aggregation tests deliberately avoid downloading ML packages or weights.
+fastapi==0.115.12
+python-multipart==0.0.22
+Pillow==11.2.1
+numpy==1.26.4
+httpx==0.28.1
+pytest==8.3.5
